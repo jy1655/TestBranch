@@ -1,0 +1,46 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+_ReSharper*/
+*.DotSettings.user
+
+# Common logs / temp
+*.log
+*.tmp
+*.temp
+logs/
+**/logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# .NET / C#
+[Bb]in/
+[Oo]bj/
+TestResults/
+artifacts/
+*.nupkg
+*.snupkg
+
+# Node.js
+node_modules/
+
+# External cloned repository (kept local for reference)
+OCR/MORT/
